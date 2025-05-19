@@ -21,7 +21,16 @@ Instalação
 
 Configuração de conexão
 
-Em backend/db.php, ajuste se necessário: <?php $pdo = new PDO( 'mysql:host=127.0.0.1;dbname=petsolidario;charset=utf8mb4', 'root', '' ); $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+Em backend/db.php, ajuste se necessário: 
+
+    <?php
+    $pdo = new PDO(
+      'mysql:host=127.0.0.1;dbname=petsolidario;charset=utf8mb4',
+      'root',
+      ''
+    );
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
 Uso
 
     Abra no navegador: http://localhost/petsolidario/frontend/index.html
