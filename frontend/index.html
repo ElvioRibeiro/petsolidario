@@ -4,10 +4,37 @@
   <meta charset="UTF-8">
   <title>PetSolidário</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="p-4">
-  <h1 class="mb-4">Pets Disponíveis</h1>
-  <div id="lista-pets" class="row g-3"></div>
+<body class="d-flex flex-column min-vh-100">
+  <header class="bg-light shadow-sm mb-4">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+      <h1 class="h4 mb-0">PetSolidário 🐾</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adotar.html">Adotar</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container flex-grow-1">
+    <h2 class="text-center mb-4">Pets Disponíveis</h2>
+    <div id="lista-pets" class="row g-3 justify-content-center"></div>
+  </main>
+
+  <footer class="bg-light text-center py-3 mt-4">
+    <div class="container">
+      <p class="text-muted mb-0">© 2025 PetSolidário. Feito com ❤️ para os animais.</p>
+    </div>
+  </footer>
+
   <script>
     fetch('../backend/api.php?action=list')
       .then(res => res.json())
@@ -15,7 +42,7 @@
         const container = document.getElementById('lista-pets');
         pets.forEach(p => {
           container.innerHTML += `
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6 col-12">
               <div class="card">
                 <img src="${p.foto}" class="card-img-top">
                 <div class="card-body">

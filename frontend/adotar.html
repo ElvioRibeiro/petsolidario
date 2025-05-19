@@ -7,10 +7,28 @@
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
   />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="p-4">
-  <div class="container">
-    <h1>Formulário de Adoção</h1>
+<body class="d-flex flex-column min-vh-100">
+  <header class="bg-light shadow-sm mb-4">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+      <h1 class="h4 mb-0">PetSolidário 🐾</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="adotar.html">Adotar</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container flex-grow-1">
+    <h2 class="text-center mb-4">Formulário de Adoção</h2>
     <form id="form-adotar" class="mt-4">
       <div class="mb-3">
         <label for="nome" class="form-label">Seu Nome</label>
@@ -22,7 +40,13 @@
       </div>
       <button type="submit" class="btn btn-primary">Enviar Pedido</button>
     </form>
-  </div>
+  </main>
+
+  <footer class="bg-light text-center py-3 mt-4">
+    <div class="container">
+      <p class="text-muted mb-0">© 2025 PetSolidário. Feito com ❤️ para os animais.</p>
+    </div>
+  </footer>
 
   <script>
     // Captura o id do pet na query string
