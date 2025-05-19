@@ -49,6 +49,13 @@ API
 
 Equipe
 
-    Elvio Americo Ribeiro
-    
+
+    ELVIO RIBEIRO
+    FABIANA REBECHI
+    JOÃO VICTOR
+    LARISSA C. LEMES
+    LUCAS DOMINGUES
+    PATRICK MAGALHÃES
+    RHUAN DE O. RAMIRES
+        
 
