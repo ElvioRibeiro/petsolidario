@@ -15,7 +15,7 @@ Tecnologias
 
 Instalação
 
-    Clone o repositório: git clone https://github.com/`Usuario`/petsolidario.git
+    Clone o repositório: git clone https://github.com/ElvioRibeiro/petsolidario.git
     Copie a pasta petsolidario para C:\\xampp\\htdocs\\
     Abra o XAMPP e inicie Apache e MySQL
     No navegador, entre em http://localhost/phpmyadmin
