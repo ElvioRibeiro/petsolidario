@@ -1,6 +1,7 @@
 
 Entrega Grupo 48
 PROJETO INTEGRADOR: DESENVOLVIMENTO DE SISTEMAS ORIENTADO A DISPOSITIVOS MÓVEIS E BASEADOS NA WEB
+Vídeo: https://drive.google.com/file/d/1tzk7NonSci_-4UmHhGcnSZhoWcmu6hvo/view?usp=drive_link
 
 Aplicação web para conectar abrigos de animais a adotantes.
 Tecnologias
@@ -46,7 +47,6 @@ API
 
 Equipe
 
-    Aluno
-    Aluno
-    Aluno
+    Elvio Americo Ribeiro
+    
 
